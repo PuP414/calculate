@@ -1,0 +1,31 @@
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4 , ifr);
+    grid-gap: 10px;
+}
+
+.calculator{
+    width: 300px;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+body{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display{
+    width: 280px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(27, 3, 134);
+    color: #fff;
+}
